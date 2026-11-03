@@ -1,0 +1,328 @@
+/usr/local/lib/python3.13/dist-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading data ...
+Loading image...
+image length 6000
+Loading data...
+weibo: 2781 samples...
+train contains: 1231 rumor tweets, 1550 real tweets.
+weibo: 758 samples...
+test contains: 274 rumor tweets, 484 real tweets.
+vocab size: 27793
+max sentence length: 252
+Loading word2vec...
+Number of words already in word2vec:0
+Translate text to embedding...
+Using K: 5 fold cross validation...
+------------------------- Fold: 1 -------------------------
+Building model...
+CUDA
+Epoch[1/50], Duration:3.34938169, Loss:2.51013315, Train_Accuracy:0.53542, Valid_accuracy:0.60820
+Best...
+Epoch[2/50], Duration:2.74170065, Loss:1.29722607, Train_Accuracy:0.78646, Valid_accuracy:0.87270
+Best...
+Epoch[3/50], Duration:2.92853999, Loss:0.63986113, Train_Accuracy:0.93437, Valid_accuracy:0.87694
+Best...
+Epoch[4/50], Duration:2.85051942, Loss:0.32966910, Train_Accuracy:0.97396, Valid_accuracy:0.87694
+Epoch[5/50], Duration:2.75851774, Loss:0.28987406, Train_Accuracy:0.97292, Valid_accuracy:0.88402
+Best...
+Epoch[6/50], Duration:2.73605418, Loss:0.27933410, Train_Accuracy:0.96701, Valid_accuracy:0.87270
+Epoch[7/50], Duration:2.74238372, Loss:0.22834676, Train_Accuracy:0.97743, Valid_accuracy:0.86704
+Epoch[8/50], Duration:3.01322842, Loss:0.13534096, Train_Accuracy:0.99271, Valid_accuracy:0.86139
+Epoch[9/50], Duration:2.70893574, Loss:0.09319894, Train_Accuracy:0.99271, Valid_accuracy:0.88119
+Epoch[10/50], Duration:2.73031831, Loss:0.07671107, Train_Accuracy:0.99549, Valid_accuracy:0.85149
+Epoch[11/50], Duration:2.75982928, Loss:0.07392568, Train_Accuracy:0.99479, Valid_accuracy:0.85573
+Epoch[12/50], Duration:2.90184045, Loss:0.04573292, Train_Accuracy:0.99722, Valid_accuracy:0.89816
+Best...
+Epoch[13/50], Duration:2.93598104, Loss:0.03042660, Train_Accuracy:0.99861, Valid_accuracy:0.89533
+Epoch[14/50], Duration:2.75946355, Loss:0.02436594, Train_Accuracy:0.99896, Valid_accuracy:0.88967
+Epoch[15/50], Duration:2.76704645, Loss:0.01936237, Train_Accuracy:0.99931, Valid_accuracy:0.89533
+Epoch[16/50], Duration:2.78769755, Loss:0.01518508, Train_Accuracy:0.99931, Valid_accuracy:0.89109
+Epoch[17/50], Duration:3.01357555, Loss:0.01198194, Train_Accuracy:0.99931, Valid_accuracy:0.89109
+Epoch[18/50], Duration:2.75083876, Loss:0.03198256, Train_Accuracy:0.99757, Valid_accuracy:0.88119
+Epoch[19/50], Duration:2.74833179, Loss:0.04124774, Train_Accuracy:0.99757, Valid_accuracy:0.89250
+Epoch[20/50], Duration:2.78349948, Loss:0.05582911, Train_Accuracy:0.99757, Valid_accuracy:0.88402
+Epoch[21/50], Duration:2.87789226, Loss:0.04888267, Train_Accuracy:0.99687, Valid_accuracy:0.86139
+Epoch[22/50], Duration:2.89623523, Loss:0.03090477, Train_Accuracy:0.99792, Valid_accuracy:0.86704
+Epoch[23/50], Duration:2.75416613, Loss:0.01687873, Train_Accuracy:1.00000, Valid_accuracy:0.86280
+Epoch[24/50], Duration:2.79070640, Loss:0.01193042, Train_Accuracy:1.00000, Valid_accuracy:0.84583
+Epoch[25/50], Duration:2.77328515, Loss:0.02646943, Train_Accuracy:0.99792, Valid_accuracy:0.85290
+Epoch[26/50], Duration:3.05278230, Loss:0.02367600, Train_Accuracy:0.99792, Valid_accuracy:0.83734
+Epoch[27/50], Duration:2.74134660, Loss:0.03337981, Train_Accuracy:0.99757, Valid_accuracy:0.87694
+Epoch[28/50], Duration:2.73774338, Loss:0.02498209, Train_Accuracy:0.99896, Valid_accuracy:0.88543
+Epoch[29/50], Duration:2.73188472, Loss:0.01717447, Train_Accuracy:0.99965, Valid_accuracy:0.89109
+Epoch[30/50], Duration:2.82762170, Loss:0.01538632, Train_Accuracy:0.99896, Valid_accuracy:0.89250
+Epoch[31/50], Duration:2.87219167, Loss:0.00865365, Train_Accuracy:0.99931, Valid_accuracy:0.89109
+Epoch[32/50], Duration:2.72719097, Loss:0.00531216, Train_Accuracy:1.00000, Valid_accuracy:0.89675
+Epoch[33/50], Duration:2.75395274, Loss:0.00424100, Train_Accuracy:1.00000, Valid_accuracy:0.89250
+Epoch[34/50], Duration:2.72352791, Loss:0.00396106, Train_Accuracy:1.00000, Valid_accuracy:0.89392
+Epoch[35/50], Duration:3.07080793, Loss:0.00341419, Train_Accuracy:1.00000, Valid_accuracy:0.89392
+Epoch[36/50], Duration:2.74436212, Loss:0.00297584, Train_Accuracy:1.00000, Valid_accuracy:0.89250
+Epoch[37/50], Duration:2.74588227, Loss:0.00300312, Train_Accuracy:1.00000, Valid_accuracy:0.89109
+Epoch[38/50], Duration:2.71881962, Loss:0.00278953, Train_Accuracy:1.00000, Valid_accuracy:0.89250
+Epoch[39/50], Duration:2.86167669, Loss:0.00273595, Train_Accuracy:1.00000, Valid_accuracy:0.89392
+Epoch[40/50], Duration:2.90169454, Loss:0.00249666, Train_Accuracy:1.00000, Valid_accuracy:0.89675
+Epoch[41/50], Duration:2.76513433, Loss:0.00232284, Train_Accuracy:1.00000, Valid_accuracy:0.89816
+Epoch[42/50], Duration:2.75962257, Loss:0.00226380, Train_Accuracy:1.00000, Valid_accuracy:0.89816
+Epoch[43/50], Duration:2.74872446, Loss:0.00211404, Train_Accuracy:1.00000, Valid_accuracy:0.89533
+Epoch[44/50], Duration:2.99897599, Loss:0.00221338, Train_Accuracy:1.00000, Valid_accuracy:0.89250
+Epoch[45/50], Duration:2.76504326, Loss:0.00212126, Train_Accuracy:1.00000, Valid_accuracy:0.90099
+Best...
+Epoch[46/50], Duration:2.80760098, Loss:0.00201219, Train_Accuracy:1.00000, Valid_accuracy:0.89958
+Epoch[47/50], Duration:2.75290728, Loss:0.00184929, Train_Accuracy:1.00000, Valid_accuracy:0.90099
+Epoch[48/50], Duration:2.87089348, Loss:0.00176587, Train_Accuracy:1.00000, Valid_accuracy:0.90099
+Epoch[49/50], Duration:2.94167614, Loss:0.00166895, Train_Accuracy:1.00000, Valid_accuracy:0.89816
+Epoch[50/50], Duration:2.77019835, Loss:0.00183072, Train_Accuracy:1.00000, Valid_accuracy:0.89816
+best_valid_acc:0.900990, best_valid_pre:0.898366, best_valid_recall:0.892914, best_valid_f1:0.895432
+------------------------- Fold: 2 -------------------------
+Building model...
+CUDA
+Epoch[1/50], Duration:2.74279618, Loss:2.55212992, Train_Accuracy:0.52569, Valid_accuracy:0.54597
+Best...
+Epoch[2/50], Duration:2.73868418, Loss:1.36078178, Train_Accuracy:0.72326, Valid_accuracy:0.87694
+Best...
+Epoch[3/50], Duration:3.02175426, Loss:0.73086571, Train_Accuracy:0.90556, Valid_accuracy:0.87694
+Epoch[4/50], Duration:2.76551127, Loss:0.41823035, Train_Accuracy:0.96215, Valid_accuracy:0.87977
+Best...
+Epoch[5/50], Duration:2.78674769, Loss:0.31153327, Train_Accuracy:0.97083, Valid_accuracy:0.87412
+Epoch[6/50], Duration:2.78386974, Loss:0.26258659, Train_Accuracy:0.96944, Valid_accuracy:0.88543
+Best...
+Epoch[7/50], Duration:2.90445995, Loss:0.19855389, Train_Accuracy:0.97882, Valid_accuracy:0.88260
+Epoch[8/50], Duration:2.90718770, Loss:0.13503381, Train_Accuracy:0.98715, Valid_accuracy:0.87270
+Epoch[9/50], Duration:2.76070428, Loss:0.08025136, Train_Accuracy:0.99549, Valid_accuracy:0.88826
+Best...
+Epoch[10/50], Duration:2.75763202, Loss:0.06265423, Train_Accuracy:0.99687, Valid_accuracy:0.88260
+Epoch[11/50], Duration:2.77457500, Loss:0.03948385, Train_Accuracy:0.99861, Valid_accuracy:0.88119
+Epoch[12/50], Duration:3.05903792, Loss:0.02981681, Train_Accuracy:0.99896, Valid_accuracy:0.89392
+Best...
+Epoch[13/50], Duration:2.77857208, Loss:0.01943239, Train_Accuracy:1.00000, Valid_accuracy:0.90382
+Best...
+Epoch[14/50], Duration:2.76950002, Loss:0.01558782, Train_Accuracy:1.00000, Valid_accuracy:0.89958
+Epoch[15/50], Duration:2.73758578, Loss:0.01217177, Train_Accuracy:1.00000, Valid_accuracy:0.89958
+Epoch[16/50], Duration:2.93511391, Loss:0.01299603, Train_Accuracy:1.00000, Valid_accuracy:0.90806
+Best...
+Epoch[17/50], Duration:2.92928386, Loss:0.01092493, Train_Accuracy:1.00000, Valid_accuracy:0.91231
+Best...
+Epoch[18/50], Duration:2.76434946, Loss:0.01867903, Train_Accuracy:0.99931, Valid_accuracy:0.89109
+Epoch[19/50], Duration:2.78051090, Loss:0.04793840, Train_Accuracy:0.99340, Valid_accuracy:0.87977
+Epoch[20/50], Duration:2.78931904, Loss:0.03156639, Train_Accuracy:0.99687, Valid_accuracy:0.86280
+Epoch[21/50], Duration:3.03552794, Loss:0.02658013, Train_Accuracy:0.99931, Valid_accuracy:0.90948
+Epoch[22/50], Duration:2.78897262, Loss:0.01517922, Train_Accuracy:1.00000, Valid_accuracy:0.90948
+Epoch[23/50], Duration:2.77459884, Loss:0.02506814, Train_Accuracy:0.99792, Valid_accuracy:0.89250
+Epoch[24/50], Duration:2.78984666, Loss:0.10454859, Train_Accuracy:0.99375, Valid_accuracy:0.89250
+Epoch[25/50], Duration:2.96079254, Loss:0.13198036, Train_Accuracy:0.99375, Valid_accuracy:0.91231
+Epoch[26/50], Duration:2.88392639, Loss:0.11385297, Train_Accuracy:0.99201, Valid_accuracy:0.90665
+Epoch[27/50], Duration:2.73849607, Loss:0.08837341, Train_Accuracy:0.99549, Valid_accuracy:0.90665
+Epoch[28/50], Duration:2.77784944, Loss:0.08491077, Train_Accuracy:0.99444, Valid_accuracy:0.90382
+Epoch[29/50], Duration:2.79152584, Loss:0.05299120, Train_Accuracy:0.99826, Valid_accuracy:0.88826
+Epoch[30/50], Duration:3.03536201, Loss:0.02823191, Train_Accuracy:0.99826, Valid_accuracy:0.89816
+Epoch[31/50], Duration:2.77968264, Loss:0.02723030, Train_Accuracy:0.99792, Valid_accuracy:0.89958
+Epoch[32/50], Duration:2.78234458, Loss:0.01983655, Train_Accuracy:0.99861, Valid_accuracy:0.90099
+Epoch[33/50], Duration:2.74075389, Loss:0.01480009, Train_Accuracy:0.99965, Valid_accuracy:0.90240
+Epoch[34/50], Duration:2.90619588, Loss:0.00863419, Train_Accuracy:1.00000, Valid_accuracy:0.89958
+Epoch[35/50], Duration:2.88315320, Loss:0.00697282, Train_Accuracy:1.00000, Valid_accuracy:0.89392
+Epoch[36/50], Duration:2.72953629, Loss:0.00590079, Train_Accuracy:1.00000, Valid_accuracy:0.89675
+Epoch[37/50], Duration:2.76570821, Loss:0.00544465, Train_Accuracy:1.00000, Valid_accuracy:0.89816
+Epoch[38/50], Duration:2.83369207, Loss:0.00487800, Train_Accuracy:1.00000, Valid_accuracy:0.89392
+Epoch[39/50], Duration:3.01418185, Loss:0.00440925, Train_Accuracy:1.00000, Valid_accuracy:0.89816
+Epoch[40/50], Duration:2.75860548, Loss:0.00400516, Train_Accuracy:1.00000, Valid_accuracy:0.89533
+Epoch[41/50], Duration:2.77025437, Loss:0.00425299, Train_Accuracy:1.00000, Valid_accuracy:0.90240
+Epoch[42/50], Duration:2.76503348, Loss:0.00440699, Train_Accuracy:1.00000, Valid_accuracy:0.90099
+Epoch[43/50], Duration:2.93212557, Loss:0.00357036, Train_Accuracy:1.00000, Valid_accuracy:0.89816
+Epoch[44/50], Duration:2.90352225, Loss:0.00348513, Train_Accuracy:1.00000, Valid_accuracy:0.89816
+Epoch[45/50], Duration:2.75381589, Loss:0.00314981, Train_Accuracy:1.00000, Valid_accuracy:0.89675
+Epoch[46/50], Duration:2.76182199, Loss:0.00305487, Train_Accuracy:1.00000, Valid_accuracy:0.89816
+Epoch[47/50], Duration:2.78495073, Loss:0.00287754, Train_Accuracy:1.00000, Valid_accuracy:0.89675
+Epoch[48/50], Duration:3.01339650, Loss:0.00437547, Train_Accuracy:0.99965, Valid_accuracy:0.89250
+Epoch[49/50], Duration:2.82138395, Loss:0.01601189, Train_Accuracy:0.99722, Valid_accuracy:0.88402
+Epoch[50/50], Duration:2.74108315, Loss:0.01607263, Train_Accuracy:0.99896, Valid_accuracy:0.89109
+best_valid_acc:0.912306, best_valid_pre:0.913412, best_valid_recall:0.909722, best_valid_f1:0.911197
+------------------------- Fold: 3 -------------------------
+Building model...
+CUDA
+Epoch[1/50], Duration:2.74094558, Loss:2.39496872, Train_Accuracy:0.53125, Valid_accuracy:0.54173
+Best...
+Epoch[2/50], Duration:2.97931933, Loss:1.31420886, Train_Accuracy:0.76944, Valid_accuracy:0.85431
+Best...
+Epoch[3/50], Duration:2.83092904, Loss:0.70298631, Train_Accuracy:0.92812, Valid_accuracy:0.85714
+Best...
+Epoch[4/50], Duration:2.77439022, Loss:0.41518463, Train_Accuracy:0.96007, Valid_accuracy:0.88826
+Best...
+Epoch[5/50], Duration:2.78601933, Loss:0.27295314, Train_Accuracy:0.97569, Valid_accuracy:0.89250
+Best...
+Epoch[6/50], Duration:2.83881855, Loss:0.24107676, Train_Accuracy:0.97361, Valid_accuracy:0.89250
+Epoch[7/50], Duration:2.97665477, Loss:0.13072082, Train_Accuracy:0.99410, Valid_accuracy:0.88119
+Epoch[8/50], Duration:2.74738765, Loss:0.15908871, Train_Accuracy:0.98542, Valid_accuracy:0.88685
+Epoch[9/50], Duration:2.77716947, Loss:0.11525195, Train_Accuracy:0.99271, Valid_accuracy:0.85997
+Epoch[10/50], Duration:2.79446077, Loss:0.08151497, Train_Accuracy:0.99479, Valid_accuracy:0.86139
+Epoch[11/50], Duration:2.99242640, Loss:0.06978950, Train_Accuracy:0.99444, Valid_accuracy:0.90948
+Best...
+Epoch[12/50], Duration:2.80503154, Loss:0.02902720, Train_Accuracy:0.99931, Valid_accuracy:0.90523
+Epoch[13/50], Duration:2.76959610, Loss:0.02188154, Train_Accuracy:0.99965, Valid_accuracy:0.90382
+Epoch[14/50], Duration:2.77208972, Loss:0.01746340, Train_Accuracy:0.99965, Valid_accuracy:0.89958
+Epoch[15/50], Duration:2.86526656, Loss:0.01306675, Train_Accuracy:1.00000, Valid_accuracy:0.89958
+Epoch[16/50], Duration:2.93159986, Loss:0.01062839, Train_Accuracy:1.00000, Valid_accuracy:0.90806
+Epoch[17/50], Duration:2.77925873, Loss:0.00828790, Train_Accuracy:1.00000, Valid_accuracy:0.90382
+Epoch[18/50], Duration:2.78748536, Loss:0.00841471, Train_Accuracy:1.00000, Valid_accuracy:0.90382
+Epoch[19/50], Duration:2.73724031, Loss:0.00645588, Train_Accuracy:1.00000, Valid_accuracy:0.90240
+Epoch[20/50], Duration:3.09699035, Loss:0.00572366, Train_Accuracy:1.00000, Valid_accuracy:0.90523
+Epoch[21/50], Duration:2.78848815, Loss:0.00521063, Train_Accuracy:1.00000, Valid_accuracy:0.90099
+Epoch[22/50], Duration:2.77870345, Loss:0.00570569, Train_Accuracy:0.99965, Valid_accuracy:0.89816
+Epoch[23/50], Duration:2.75623941, Loss:0.03151607, Train_Accuracy:0.99861, Valid_accuracy:0.67610
+Epoch[24/50], Duration:2.86869049, Loss:0.06369267, Train_Accuracy:0.99097, Valid_accuracy:0.85856
+Epoch[25/50], Duration:2.95993352, Loss:0.06680223, Train_Accuracy:0.99722, Valid_accuracy:0.84158
+Epoch[26/50], Duration:2.76727152, Loss:0.06235845, Train_Accuracy:0.99340, Valid_accuracy:0.88260
+Epoch[27/50], Duration:2.76485038, Loss:0.04812771, Train_Accuracy:0.99896, Valid_accuracy:0.87412
+Epoch[28/50], Duration:2.77858329, Loss:0.02817073, Train_Accuracy:0.99965, Valid_accuracy:0.88260
+Epoch[29/50], Duration:3.09668612, Loss:0.01569249, Train_Accuracy:0.99965, Valid_accuracy:0.88685
+Epoch[30/50], Duration:2.77138758, Loss:0.01829347, Train_Accuracy:0.99861, Valid_accuracy:0.88543
+Epoch[31/50], Duration:2.78428602, Loss:0.02948374, Train_Accuracy:0.99896, Valid_accuracy:0.88685
+Epoch[32/50], Duration:2.76514578, Loss:0.01337915, Train_Accuracy:1.00000, Valid_accuracy:0.88402
+Epoch[33/50], Duration:2.88377285, Loss:0.00872239, Train_Accuracy:1.00000, Valid_accuracy:0.88543
+Epoch[34/50], Duration:2.92464542, Loss:0.00546661, Train_Accuracy:1.00000, Valid_accuracy:0.87977
+Epoch[35/50], Duration:2.76327658, Loss:0.02522054, Train_Accuracy:0.99687, Valid_accuracy:0.88543
+Epoch[36/50], Duration:2.76134944, Loss:0.00783635, Train_Accuracy:1.00000, Valid_accuracy:0.88402
+Epoch[37/50], Duration:2.77104783, Loss:0.00506365, Train_Accuracy:1.00000, Valid_accuracy:0.88685
+Epoch[38/50], Duration:3.03555322, Loss:0.00394405, Train_Accuracy:1.00000, Valid_accuracy:0.87694
+Epoch[39/50], Duration:2.77120519, Loss:0.00303385, Train_Accuracy:1.00000, Valid_accuracy:0.87977
+Epoch[40/50], Duration:2.78067422, Loss:0.00293547, Train_Accuracy:1.00000, Valid_accuracy:0.87977
+Epoch[41/50], Duration:2.75870442, Loss:0.00253955, Train_Accuracy:1.00000, Valid_accuracy:0.87977
+Epoch[42/50], Duration:2.89824319, Loss:0.00262399, Train_Accuracy:1.00000, Valid_accuracy:0.87836
+Epoch[43/50], Duration:2.89276004, Loss:0.00235396, Train_Accuracy:1.00000, Valid_accuracy:0.87977
+Epoch[44/50], Duration:2.75215721, Loss:0.00232666, Train_Accuracy:1.00000, Valid_accuracy:0.88119
+Epoch[45/50], Duration:2.76706839, Loss:0.00210111, Train_Accuracy:1.00000, Valid_accuracy:0.88119
+Epoch[46/50], Duration:2.78592587, Loss:0.00183063, Train_Accuracy:1.00000, Valid_accuracy:0.88260
+Epoch[47/50], Duration:3.06307030, Loss:0.00185348, Train_Accuracy:1.00000, Valid_accuracy:0.88119
+Epoch[48/50], Duration:2.75960851, Loss:0.00160375, Train_Accuracy:1.00000, Valid_accuracy:0.88260
+Epoch[49/50], Duration:2.76825428, Loss:0.00152905, Train_Accuracy:1.00000, Valid_accuracy:0.88402
+Epoch[50/50], Duration:2.77909565, Loss:0.00158597, Train_Accuracy:1.00000, Valid_accuracy:0.88260
+best_valid_acc:0.909477, best_valid_pre:0.909197, best_valid_recall:0.908366, best_valid_f1:0.908752
+------------------------- Fold: 4 -------------------------
+Building model...
+CUDA
+Epoch[1/50], Duration:2.95200229, Loss:2.64712063, Train_Accuracy:0.53750, Valid_accuracy:0.55304
+Best...
+Epoch[2/50], Duration:2.90444827, Loss:1.40398433, Train_Accuracy:0.75590, Valid_accuracy:0.83734
+Best...
+Epoch[3/50], Duration:2.81737924, Loss:0.80918362, Train_Accuracy:0.90174, Valid_accuracy:0.88685
+Best...
+Epoch[4/50], Duration:2.78457069, Loss:0.45613895, Train_Accuracy:0.95347, Valid_accuracy:0.83451
+Epoch[5/50], Duration:2.82055235, Loss:0.30051231, Train_Accuracy:0.97951, Valid_accuracy:0.89109
+Best...
+Epoch[6/50], Duration:2.91857171, Loss:0.17671853, Train_Accuracy:0.99201, Valid_accuracy:0.88685
+Epoch[7/50], Duration:2.72224617, Loss:0.17906153, Train_Accuracy:0.98681, Valid_accuracy:0.87977
+Epoch[8/50], Duration:2.73205829, Loss:0.13849629, Train_Accuracy:0.98785, Valid_accuracy:0.89675
+Best...
+Epoch[9/50], Duration:2.74885607, Loss:0.11475050, Train_Accuracy:0.99167, Valid_accuracy:0.89958
+Best...
+Epoch[10/50], Duration:2.92676950, Loss:0.06393818, Train_Accuracy:0.99861, Valid_accuracy:0.89250
+Epoch[11/50], Duration:2.85358477, Loss:0.10254507, Train_Accuracy:0.99167, Valid_accuracy:0.87836
+Epoch[12/50], Duration:2.77149200, Loss:0.10955430, Train_Accuracy:0.98958, Valid_accuracy:0.90240
+Best...
+Epoch[13/50], Duration:2.81577277, Loss:0.05279816, Train_Accuracy:0.99965, Valid_accuracy:0.91372
+Best...
+Epoch[14/50], Duration:2.78607225, Loss:0.03046419, Train_Accuracy:1.00000, Valid_accuracy:0.90806
+Epoch[15/50], Duration:2.94180226, Loss:0.04217468, Train_Accuracy:0.99757, Valid_accuracy:0.91655
+Best...
+Epoch[16/50], Duration:2.77222967, Loss:0.03800895, Train_Accuracy:0.99861, Valid_accuracy:0.89816
+Epoch[17/50], Duration:2.77680635, Loss:0.02745434, Train_Accuracy:1.00000, Valid_accuracy:0.90665
+Epoch[18/50], Duration:2.74892378, Loss:0.01675925, Train_Accuracy:1.00000, Valid_accuracy:0.90665
+Epoch[19/50], Duration:2.95001698, Loss:0.05296297, Train_Accuracy:0.99375, Valid_accuracy:0.89816
+Epoch[20/50], Duration:2.85973549, Loss:0.08436782, Train_Accuracy:0.99653, Valid_accuracy:0.90099
+Epoch[21/50], Duration:2.75726748, Loss:0.04732314, Train_Accuracy:0.99826, Valid_accuracy:0.90382
+Epoch[22/50], Duration:2.74153352, Loss:0.02879956, Train_Accuracy:0.99931, Valid_accuracy:0.90099
+Epoch[23/50], Duration:2.85367370, Loss:0.01291354, Train_Accuracy:1.00000, Valid_accuracy:0.90806
+Epoch[24/50], Duration:3.05291581, Loss:0.00952645, Train_Accuracy:1.00000, Valid_accuracy:0.90099
+Epoch[25/50], Duration:2.77163076, Loss:0.01120195, Train_Accuracy:0.99965, Valid_accuracy:0.90099
+Epoch[26/50], Duration:2.75643086, Loss:0.01131945, Train_Accuracy:1.00000, Valid_accuracy:0.88685
+Epoch[27/50], Duration:2.76338863, Loss:0.00910463, Train_Accuracy:1.00000, Valid_accuracy:0.89533
+Epoch[28/50], Duration:2.94737840, Loss:0.09703896, Train_Accuracy:0.99653, Valid_accuracy:0.88685
+Epoch[29/50], Duration:2.85127878, Loss:0.06101081, Train_Accuracy:0.99722, Valid_accuracy:0.89816
+Epoch[30/50], Duration:2.75304341, Loss:0.03991090, Train_Accuracy:0.99826, Valid_accuracy:0.86280
+Epoch[31/50], Duration:2.75235200, Loss:0.04535720, Train_Accuracy:0.99792, Valid_accuracy:0.88119
+Epoch[32/50], Duration:2.80796337, Loss:0.02450229, Train_Accuracy:0.99861, Valid_accuracy:0.89675
+Epoch[33/50], Duration:3.01277113, Loss:0.02810833, Train_Accuracy:0.99861, Valid_accuracy:0.89958
+Epoch[34/50], Duration:2.77500701, Loss:0.02064395, Train_Accuracy:0.99861, Valid_accuracy:0.91655
+Epoch[35/50], Duration:2.80429506, Loss:0.01224497, Train_Accuracy:1.00000, Valid_accuracy:0.90240
+Epoch[36/50], Duration:2.75529766, Loss:0.00755417, Train_Accuracy:1.00000, Valid_accuracy:0.90806
+Epoch[37/50], Duration:3.02867150, Loss:0.00596051, Train_Accuracy:1.00000, Valid_accuracy:0.90382
+Epoch[38/50], Duration:2.88049579, Loss:0.00510771, Train_Accuracy:1.00000, Valid_accuracy:0.90523
+Epoch[39/50], Duration:2.74025917, Loss:0.00475613, Train_Accuracy:1.00000, Valid_accuracy:0.90240
+Epoch[40/50], Duration:2.75513315, Loss:0.00385293, Train_Accuracy:1.00000, Valid_accuracy:0.90523
+Epoch[41/50], Duration:2.83415532, Loss:0.00347457, Train_Accuracy:1.00000, Valid_accuracy:0.90523
+Epoch[42/50], Duration:3.01562643, Loss:0.00370595, Train_Accuracy:1.00000, Valid_accuracy:0.90523
+Epoch[43/50], Duration:2.73528433, Loss:0.00347574, Train_Accuracy:1.00000, Valid_accuracy:0.90948
+Epoch[44/50], Duration:2.79562783, Loss:0.00327720, Train_Accuracy:1.00000, Valid_accuracy:0.90806
+Epoch[45/50], Duration:2.81105638, Loss:0.00285468, Train_Accuracy:1.00000, Valid_accuracy:0.90948
+Epoch[46/50], Duration:2.97126031, Loss:0.00263073, Train_Accuracy:1.00000, Valid_accuracy:0.91089
+Epoch[47/50], Duration:2.84826660, Loss:0.00267017, Train_Accuracy:1.00000, Valid_accuracy:0.91089
+Epoch[48/50], Duration:2.76552105, Loss:0.00265405, Train_Accuracy:1.00000, Valid_accuracy:0.91089
+Epoch[49/50], Duration:2.77567744, Loss:0.00240031, Train_Accuracy:1.00000, Valid_accuracy:0.90948
+Epoch[50/50], Duration:2.85799384, Loss:0.00221745, Train_Accuracy:1.00000, Valid_accuracy:0.90948
+best_valid_acc:0.916549, best_valid_pre:0.913201, best_valid_recall:0.915213, best_valid_f1:0.914158
+------------------------- Fold: 5 -------------------------
+Building model...
+CUDA
+Epoch[1/50], Duration:3.09113574, Loss:2.45018126, Train_Accuracy:0.53611, Valid_accuracy:0.59072
+Best...
+Epoch[2/50], Duration:2.76307702, Loss:1.29441989, Train_Accuracy:0.73218, Valid_accuracy:0.78762
+Best...
+Epoch[3/50], Duration:2.77083421, Loss:0.67546618, Train_Accuracy:0.92338, Valid_accuracy:0.79606
+Best...
+Epoch[4/50], Duration:2.73394966, Loss:0.38714011, Train_Accuracy:0.96458, Valid_accuracy:0.86076
+Best...
+Epoch[5/50], Duration:2.97770262, Loss:0.24750779, Train_Accuracy:0.98160, Valid_accuracy:0.84951
+Epoch[6/50], Duration:2.82630897, Loss:0.18701753, Train_Accuracy:0.98646, Valid_accuracy:0.81716
+Epoch[7/50], Duration:2.75601459, Loss:0.19965343, Train_Accuracy:0.98194, Valid_accuracy:0.86920
+Best...
+Epoch[8/50], Duration:2.77358246, Loss:0.14587866, Train_Accuracy:0.98958, Valid_accuracy:0.88186
+Best...
+Epoch[9/50], Duration:2.84894156, Loss:0.11041583, Train_Accuracy:0.99271, Valid_accuracy:0.87904
+Epoch[10/50], Duration:2.93932247, Loss:0.07774278, Train_Accuracy:0.99618, Valid_accuracy:0.88748
+Best...
+Epoch[11/50], Duration:2.74459600, Loss:0.08146321, Train_Accuracy:0.99340, Valid_accuracy:0.85795
+Epoch[12/50], Duration:2.75918245, Loss:0.04984571, Train_Accuracy:0.99757, Valid_accuracy:0.88186
+Epoch[13/50], Duration:2.76427412, Loss:0.03075979, Train_Accuracy:1.00000, Valid_accuracy:0.88186
+Epoch[14/50], Duration:2.98612595, Loss:0.03028367, Train_Accuracy:0.99861, Valid_accuracy:0.88326
+Epoch[15/50], Duration:2.85232687, Loss:0.02714752, Train_Accuracy:0.99965, Valid_accuracy:0.88045
+Epoch[16/50], Duration:2.79893398, Loss:0.02059898, Train_Accuracy:0.99931, Valid_accuracy:0.88045
+Epoch[17/50], Duration:2.79460144, Loss:0.03114885, Train_Accuracy:0.99792, Valid_accuracy:0.87623
+Epoch[18/50], Duration:2.87006235, Loss:0.02701767, Train_Accuracy:0.99896, Valid_accuracy:0.88326
+Epoch[19/50], Duration:2.98218441, Loss:0.02217215, Train_Accuracy:0.99896, Valid_accuracy:0.87482
+Epoch[20/50], Duration:2.76223850, Loss:0.01308168, Train_Accuracy:1.00000, Valid_accuracy:0.87482
+Epoch[21/50], Duration:2.82655692, Loss:0.00962117, Train_Accuracy:1.00000, Valid_accuracy:0.87482
+Epoch[22/50], Duration:2.79527903, Loss:0.00800807, Train_Accuracy:1.00000, Valid_accuracy:0.87482
+Epoch[23/50], Duration:3.03345752, Loss:0.01491058, Train_Accuracy:0.99861, Valid_accuracy:0.88045
+Epoch[24/50], Duration:2.80400825, Loss:0.01456015, Train_Accuracy:0.99965, Valid_accuracy:0.88186
+Epoch[25/50], Duration:2.73636794, Loss:0.01165044, Train_Accuracy:1.00000, Valid_accuracy:0.87342
+Epoch[26/50], Duration:2.74825573, Loss:0.00983847, Train_Accuracy:0.99965, Valid_accuracy:0.86498
+Epoch[27/50], Duration:2.85838675, Loss:0.01424893, Train_Accuracy:0.99965, Valid_accuracy:0.88326
+Epoch[28/50], Duration:2.95035934, Loss:0.09121909, Train_Accuracy:0.99410, Valid_accuracy:0.86779
+Epoch[29/50], Duration:2.75990248, Loss:0.09055745, Train_Accuracy:0.99363, Valid_accuracy:0.86357
+Epoch[30/50], Duration:2.75983071, Loss:0.08608792, Train_Accuracy:0.99375, Valid_accuracy:0.86217
+Epoch[31/50], Duration:2.77170801, Loss:0.04766251, Train_Accuracy:0.99687, Valid_accuracy:0.87904
+Epoch[32/50], Duration:3.03603268, Loss:0.03049870, Train_Accuracy:0.99861, Valid_accuracy:0.88326
+Epoch[33/50], Duration:2.80872273, Loss:0.04564581, Train_Accuracy:0.99687, Valid_accuracy:0.88608
+Epoch[34/50], Duration:2.77412796, Loss:0.04921368, Train_Accuracy:0.99722, Valid_accuracy:0.89311
+Best...
+Epoch[35/50], Duration:2.77730036, Loss:0.03982219, Train_Accuracy:0.99722, Valid_accuracy:0.88186
+Epoch[36/50], Duration:2.88089657, Loss:0.01920923, Train_Accuracy:0.99931, Valid_accuracy:0.87764
+Epoch[37/50], Duration:2.98713160, Loss:0.01070034, Train_Accuracy:1.00000, Valid_accuracy:0.88608
+Epoch[38/50], Duration:2.76303577, Loss:0.01001227, Train_Accuracy:0.99965, Valid_accuracy:0.87623
+Epoch[39/50], Duration:2.76323462, Loss:0.00997357, Train_Accuracy:0.99965, Valid_accuracy:0.87764
+Epoch[40/50], Duration:2.75139117, Loss:0.00659582, Train_Accuracy:1.00000, Valid_accuracy:0.87623
+Epoch[41/50], Duration:3.04798532, Loss:0.00498384, Train_Accuracy:1.00000, Valid_accuracy:0.88045
+Epoch[42/50], Duration:2.78269839, Loss:0.00427175, Train_Accuracy:1.00000, Valid_accuracy:0.87764
+Epoch[43/50], Duration:2.73883152, Loss:0.00364778, Train_Accuracy:1.00000, Valid_accuracy:0.87904
+Epoch[44/50], Duration:2.77169538, Loss:0.00365524, Train_Accuracy:1.00000, Valid_accuracy:0.88186
+Epoch[45/50], Duration:2.89043379, Loss:0.00334101, Train_Accuracy:1.00000, Valid_accuracy:0.88326
+Epoch[46/50], Duration:2.98192692, Loss:0.00322280, Train_Accuracy:1.00000, Valid_accuracy:0.88045
+Epoch[47/50], Duration:2.78618932, Loss:0.00303970, Train_Accuracy:1.00000, Valid_accuracy:0.88186
+Epoch[48/50], Duration:2.77280045, Loss:0.00297418, Train_Accuracy:1.00000, Valid_accuracy:0.88045
+Epoch[49/50], Duration:2.76542449, Loss:0.00318790, Train_Accuracy:0.99965, Valid_accuracy:0.87482
+Epoch[50/50], Duration:3.05614781, Loss:0.00916377, Train_Accuracy:0.99896, Valid_accuracy:0.87623
+best_valid_acc:0.893108, best_valid_pre:0.899381, best_valid_recall:0.879971, best_valid_f1:0.887024
+========================================
+Accuracy:0.90649, F1:0.90331
+Rumor Precision:0.90591, Rumor Recall:0.86947, Rumor F1:0.88677
+Non-Rumor Precision:0.90751, Non-Rumor Recall:0.93300, Non-Rumor F1:0.91985

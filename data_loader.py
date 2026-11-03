@@ -20,10 +20,10 @@ def get_image(data_path):
             transforms.ToTensor(),
             transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
         ])
-        for i, filename in enumerate(os.listdir(path)):
+        for i, filename in enumerate(sorted(os.listdir(path))[:3000]):
             try:
                 im = Image.open(path + filename).convert('RGB')
-                im = data_transforms(im)
+                im = data_transforms(im).half()
                 image_dict[filename.split('/')[-1].split('.')[0]] = im  # remove '.jpg'
             except:
                 print(filename)

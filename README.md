@@ -25,4 +25,25 @@ This code requires the following:
 ```shell
 python main_kfold.py
 ```
+## Execution Results (Aniska Rai, 25BTRAO004)
 
+Ran `main_kfold.py` on the Weibo dataset in Google Colab (T4 GPU), 5-fold cross-validation, 50 epochs per fold.
+
+### Changes made to run it
+- The downloaded Weibo data was the raw version (`tweets/*.txt` plus image folders), so I converted it to `train_data.csv` / `test_data.csv` (segmented with jieba), as `data_loader.py` expects.
+- No `w2v.pickle` was provided, so I used an empty one; the code then assigns random 32-d word vectors.
+- Because of Colab's 12 GB RAM limit, `data_loader.py` loads images in half precision and uses at most 3,000 images per image folder (a subset of the dataset).
+
+### Final results
+Accuracy: 0.90649, F1: 0.90331
+
+Rumor: Precision 0.90591, Recall 0.86947, F1 0.88677
+
+Non-Rumor: Precision 0.90751, Recall 0.93300, F1 0.91985
+
+### Screenshots
+![Training start](1_start.png)
+![All 5 folds](2_folds.png)
+![Final metrics](3_final.png)
+
+Full log: [full_log.txt](full_log.txt)
